@@ -1,0 +1,49 @@
+{
+  "name": "dialogflow-bot",
+  "version": "1.0.0",
+  "description": "this is dialogflow fulfilment API project which will respond to dialogflow webhook",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jetani-ravi/dialogflow-bot.git"
+  },
+  "keywords": [
+    "dialogflow",
+    "dialogflow cx",
+    "dialogflow es",
+
+    "fulfilment"
+  ],
+  "author": "Ravi Jetani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jetani-ravi/dialogflow-bot/issues"
+  },
+  "homepage": "https://github.com/jetani-ravi/dialogflow-bot#readme",
+  "dependencies": {
+    "@google-cloud/dialogflow": "^6.0.0",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "nodemon": "^2.0.22",
+    "querystring": "^0.2.1",
+    "uuid": "^9.0.0",
+    "wss": "^3.3.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "prettier": "^2.8.7"
+  }
+}
